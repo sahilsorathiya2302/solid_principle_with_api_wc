@@ -49,7 +49,6 @@ class _PinPutWidgetState extends State<PinPutWidget> {
               if (s == null || s.isEmpty) {
                 return "Enter Otp Digits";
               }
-
               return null;
             },
             pinputAutovalidateMode: PinputAutovalidateMode.onSubmit,
